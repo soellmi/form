@@ -1,22 +1,44 @@
+::-webkit-input-placeholder { /* Chrome */
+    color: #FDFFFF;
+    }
+    :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #FDFFFF;
+    }
+    ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #FDFFFF;
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #FDFFFF;
+    }
+    
+    [type="text"] {
+        -moz-appearance:    textfield;
+        -webkit-appearance: textfield;
+        appearance: textfield;
+    }
+
 body{
     background-color: #9DBEBB;
     display: flex;
     justify-content: center;
     margin-top: 5%;
-
 }
-.hr-1{ 
-    border-width: 1px;
-    border-top: #9DBEBB;
-    width: 400px;
-    text-align: left;
-    }
 
- .hr-2{ 
-    border-width: 1px;
-    border-top: #9DBEBB;
-    width: 160px;
+.hr-1{ 
+    width: 400px;
+    height: 1px;
+    border: 0px;
     text-align: left;
+    background-color: #9DBEBB;
+    
+    }
+ 
+ .hr-2{ 
+    width: 160px;
+    height: 1px;
+    border: 0px;
+    text-align: left;
+    background-color: #9DBEBB;
         }
 
 .field{
@@ -27,7 +49,8 @@ body{
     font-size: 18px;
     font-weight: 400;
     line-height: 21px;
-    color: #FFFFFF;
+    letter-spacing: 3px;
+    color: #FDFFFF;
     border: none;
 
 
@@ -76,6 +99,10 @@ button{
     border: 1px; 
     border-color: #9DBEBB;
     border-radius: 40px;
+    margin-left: 200px;
+    margin-top: 56px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
 }
 
 .duck{
