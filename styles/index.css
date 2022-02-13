@@ -1,0 +1,42 @@
+body{
+    background-color: #9DBEBB;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+
+}
+
+h1{
+    color: aqua;
+}
+
+.red-yellow-box{
+    width: 954px;
+    height: 594px;
+    background-color: #BE0909;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.form-container{
+    width: 609px;
+    height: 342px; 
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.yellow-box{
+    width: 345px;
+    height: 594px;
+    background-color: #FFB039;
+    }
+
+button{
+    font-family: font-family: 'Roboto', sans-serif;
+    font-style: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #FFFFFF;
+    background-color: #468189;
+}
